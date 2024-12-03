@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemandangan Alam</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf7f1;
+            color: #2c3e50;
+        }
+        header {
+            background-image: url('images/alam5.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px #333;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            max-width: calc(33% - 20px);
+            height: 300px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Pemandangan Alam</h1>
+    </header>
+
+    
+    <div class="content">
+        <h2>Galeri Pemandangan</h2>
+        <p>Berikut adalah beberapa gambar keindahan alam yang memukau:</p>
+        <div class="gallery">
+            <img src="images/alam3.jpg">
+            <img src="images/alam4.jpg">
+            <img src="images/alam5.jpg">
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Keindahan Alam Indonesia</p>
+    </footer>
+</body>
+</html>
